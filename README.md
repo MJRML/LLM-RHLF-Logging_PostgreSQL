@@ -12,6 +12,15 @@ The goal of this project is to explore **automating the reward signal process us
 
 ---
 
+##  Why This Project
+
+- Traditional RLHF pipelines depend heavily on **manual human feedback**.  
+- This project tests whether **automated scoring methods** can produce high-quality reward signals.  
+- The result is a **scalable, self-improving feedback loop** where LLMs can be evaluated and fine-tuned automatically.  
+- Demonstrates hands-on skills with **transformer-based LLMs, RLHF data workflows, database design, and applied AI engineering**.  
+
+---
+
 ## Features
 
 - Logs prompts, responses, and metrics (**token count**, **generation time**) to PostgreSQL  
