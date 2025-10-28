@@ -106,3 +106,10 @@ SELECT * FROM llm_logs ORDER BY id DESC;
 - Integrate multiple LLM models for comparative analysis  
 - Build a **dashboard** to visualize performance trends over time  
 - Extend to distributed processing for large-scale prompt evaluation
+
+## Project Learnings
+
+- The **automated reward scoring** using semantic similarity provides a quick evaluation of LLM responses but **did not perform as accurately** as expected in all cases.  
+- There were instances where the LLM output was relevant and correct, but the similarity score was low due to phrasing differences.  
+- **Human-in-the-loop evaluation** and professional data annotators are still recommended for high-quality RLHF datasets.  
+- This project demonstrates how automated metrics can **complement human evaluation**, potentially reducing workload but not fully replacing human oversight.
