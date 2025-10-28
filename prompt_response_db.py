@@ -8,8 +8,8 @@ import time
 conn = psycopg2.connect(
     host='localhost',
     database='llm_prompts_response',
-    user='postgres',
-    password='P@ssW0rd!'
+    user='',
+    password=''
 )
 
 cur = conn.cursor()
