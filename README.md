@@ -109,6 +109,8 @@ SELECT * FROM llm_logs ORDER BY id DESC;
 
 ## Project Learnings
 
+![PostgreSQL Prompt Response Scoring](images/PostgreSQL_Prompt_Response_scoring.png)
+
 - The **automated reward scoring** using semantic similarity provides a quick evaluation of LLM responses but **did not perform as accurately** as expected in all cases.  
 - There were instances where the LLM output was relevant and correct, but the similarity score was low due to phrasing differences.  
 - **Human-in-the-loop evaluation** and professional data annotators are still recommended for high-quality RLHF datasets.  
