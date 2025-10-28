@@ -28,7 +28,7 @@ rows = cur.fetchall()
 for row in rows:
     record_id, prompt, response = row
 
-    # Here we create a simple "reference" by combining the prompt with a factual template
+    # create a simple "reference" by combining the prompt with a factual template
     # In production, you could use trusted sources or retrieval-augmented references
     reference = f"{prompt} [Expected correct answer]"
 
