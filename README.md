@@ -51,6 +51,7 @@ The goal of this project is to explore **automating the reward signal process us
 
 ### Database Table: llm_logs
 
+```sql
 CREATE TABLE llm_logs (
     id SERIAL PRIMARY KEY,
     prompt TEXT,
@@ -60,6 +61,7 @@ CREATE TABLE llm_logs (
     generation_time FLOAT,
     reward_score FLOAT
 );
+```
 
 ---
 
