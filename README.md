@@ -97,8 +97,11 @@ python llm_logger.py
 python prompt_reward_RLHF.py
 
 - **View Results in PostgreSQL:**
-
-SELECT * FROM llm_logs ORDER BY id DESC;
+```sql
+SELECT * 
+FROM llm_logs 
+ORDER BY id DESC;
+```
 
 ---
 
